@@ -1,0 +1,29 @@
+﻿package com.apppay103.config;
+
+public class FzConfig {
+	// 商户appid
+	public static String APPID = "2017041706765006";
+	// 私钥 pkcs8格式的	
+	public static String RSA_PRIVATE_KEY = "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC9V++Zxn6N4wQ6w0Dg8ZLz7FT6C9Ht3wmZPJLYdh5sZCPMXII8RYe4nAmHGPpE1Z8BN4D7quEz0KACPv8cTjjxrAXMdV9JRVAjpMi4uhb+l9GaE/3F19bILRShp7wxmMjPC1qRXprnwULIYMjY1JPZQ6es7awg0gqeI1BdysItPM/q2Z9EunuSDHzI6WQjnNU5UnwLpyYOA9di8apnwOB7cXiCWagGyhmSkkSUd8Yvq7TblZ1/rrl52pILrlx5ZIqKo0TWi3qaPeM1WGZJ9rqvhdz5GXHguooxM8zTxr8/EdW7FAESpAmJRAQTa3+WiAAwQK/Hu/5L056ByraCc6uJAgMBAAECggEAc9VBGmUpdOnl44Ehxrti+GCjV9k1U314JMu+1jfkwtC8acBKWE79Cb5DwedQ7B13ycnH2a6fWRCPYvBhJ1LfWVGwtnUzluKVdUjRFtmZSaVdMBJ81LUHi6ywi3jPE9RxPOCoRniG8bL0hRtYo/XggTD3ej5oaCe3ISlfeBGbmwokLmzzj6xDu/uVmGTgCO6LqGHvmp7SU+9yZLjBpRul/Q6M/K47lGq275/NeUR9oDWOkt1wJ/la3OkHfAextYA4cn4bAat5uy+gBjuSc95nvoxDuc8CLlEpzQ4S005UFc/1y/0DyS7OpP0tac9qHt4QM2NPvVTGzZHCVT/fuvAYRQKBgQDoaEW8JF+vpOvHG9zSg89/2a7+APpTnzYipnpUyGw7bRjQ1PIx/aqEUZz4Cgel+ijqOVVMFGRf42oivEs+p3VgGK9lgSIKElDvZjKc9inVPZ/ODQncZYa4uG2upNRngpzJvEaoCDDG2nw6EU0/9EtzTIHk9CMB+q2ezDYOZYIkHwKBgQDQkIjnov78/PyIuYDnU7Z/FPXhTUAYjl+I0Wo168P031KVGfnVK5hODPwV9cQq+5Ii7nBXNTLSWtJa4jTOfvwyv2apWT1pT78pwHoi5uB+qdOAVBBgME1nHobkkvgX3vZZRnHc3hHS+ctbF4JwP53cE0+4wkPWtm0ZIorChFH7VwKBgDNkO2drM62HbovM4Xu7ofrHjCam2LP9FN98qLhuyWAqs74aGKRtT3OLCIbg0Ogm9T02CGKWb8u0YhfkQ09LgG0LiF2NvJU1j6gglTiYRo/c3KWXxIJ0AOKABeEEmeN5wmnptEYb6Y1PawD8KnTl9Hk+hcq3IbaiVBo1Vg7A65JJAoGAfhOxPt1waPyBqCEDRFN9kYrZLA4nvfBq3elB3ECeX2uUn19pgCxvUFdXF+tOX3FeINGkhYM6KqEOYjQ2GdH3oLHFXH/+uKeldpbM/kY01TzSBtRKZestDzYL8ybI5J06rDMCZ7Kycafg/zrR9gru4XenDJgarDPw9W3FFdspN9cCgYBCS5gyM3h7fyi4qQkyuga4YRz9teA3ULZ75w36k6SoG9HuH/ivG9wBR98+eiZm5beW/nfmQhvOyqoM08MeIqCK6qVwCiPPh6ADz3dnFlO6lghVXgDXJgxnySt+A9xkQVS0XguyySFydBhe5JflCpxnz3wL64URSL/8c+JdJSc3pQ==";
+	// 服务器异步通知页面路径 需http://或者httpsMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkXtSxgD3dDDdCHEe/uKMLaFhehjWTDYlR35eQUnx0ghBFhZfIwUmj/uKEywgSRTJIihfOHqL+BS7ZVEC7JfsjqQQajjhKMOGqLIFY/fKjaBW66c7SLV3BJ/cRpyyIgXy/hlPtWy1AlyAuYi6Z8wSahMlxovG5n1ja6eZDnm0zxUG0qNEY0xGyllrUliVOljWu5fPNcV1w4Q/ic21w/nFYkp7iSEPAmClswzVNDlnssw48cuBy3dsmXicWUPhoH9RZPj3Iw8rRb+UoYfN3KomSZRibH/Aj29HA0kicoW2zQjvB/T2TdkVJe4kbe/PEevFZMee+fiCHvEXam1E4EQy1QIDAQAB://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
+	
+	public static String notify_url = "http://netpay.fz222.com/pay/callback_fz222";
+	
+	// 页面跳转同步通知页面路径 需http://或者https://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问 商户可以自定义同步跳转地址
+	public static String return_url = "http://netpay.fz222.com/web/Result/";
+	// 请求网关地址
+	public static String URL = "https://openapi.alipay.com/gateway.do";
+	// 编码
+	public static String CHARSET = "UTF-8";
+	// 返回格式
+	public static String FORMAT = "json";
+	// 支付宝公钥
+	//public static String ALIPAY_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkEDKD1OpWEyNZaonEz7HhEgYcR8i7coBq6YEWZZ3f15SIFBJ+mj2wajX5YJAyh4O88dkVvawBtwvDgfCImWeM3Ekm2a8eue5t62mDiynPLhCyJNxLDcrfaAlmd7EQXuQoc1SNC8+De8m2ChhQQf4oYHBkLl6xt8fRVbi/yyPU/yQgr7WwbCzID6uMIUa0np7uhburumo4OOfIbNnbmdyqLDWgNlq5ExUSMskjAK7NHOuZE2QAh2ToCoGqjxchKU8bJiSbhbQa2PXj/AXpGjpCZ9FSzXRWc4X/KA8i5+MoMq/G3gtnJ7K3/Kzm4hIHIe3nksNulUV+J0ZlVv0iGEoOwIDAQAB";
+	public static String ALIPAY_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnlkduZEffRHMxOX5+IRspn0EOrrZPY7Y51zvLYaaBXg82plATX+Gxp7vy6VTwfurxV6kOqLnlxmwSwXgS+4qjiFcWJqOM+kk/74qmaaQeJPLvNiSV1wLggDjo3tL7Un5JRmLREe5brA1rnGaiIZboFvFVJnWu2UJxS3+PW6hqt6MIobtZNbLwJxnjLFovUAPKjAUTtrDTuCCNptaFJif2buQtw24IDYHqwJ9aze9v0xK23romvn6FRs7amz8FTxYCNHg0GQtuv/8JobrUN9YkAq4CLyj5vin1gXYcJOT+cqsv3oioVz5XduLwxLByjcPDEcRW0BlZr/IWgvnUyuWQQIDAQAB";
+	// 日志记录目录
+	public static String log_path = "/log";
+	// RSA2
+	public static String SIGNTYPE = "RSA2";
+	//支付宝用户号
+	public static String seller_id="2088621854669997";
+}

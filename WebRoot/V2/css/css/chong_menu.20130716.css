@@ -1,0 +1,52 @@
+@charset "utf-8";.menu li i,.nav-mobile .t-1 a,.nav-game .t-2 a,.nav-qb .t-3 a,.nav-lottery .t-4 a,.nav-card .t-5 a,.nav-bank .t-6 a,.nav-life .t-7 a,.nav-insurance .t-8 a,.nav-post .t-9 a,.nav-movie .t-10 a,.nav-hotel .t-11 a,.nav-nice-num .t-12 a,.nav-fund .t-13 a,.menu li a:hover,.nav-3g .t-14 a{background:url(../img/chong_frame_sprites.png) no-repeat}
+.menu{float:left;width:183px;background:#126fb0;padding-bottom:999em;margin-bottom:-999em;background:#2c8fd2;border-right:2px solid #126fb0}
+.menu ul{padding:10px 10px 0 10px;background:#2c8fd2}
+.menu li{border-bottom:1px solid #1f81c3;border-top:1px solid #3a9bdc;text-shadow:0 1px 1px #666;font:300 16px \5FAE\8F6F\96C5\9ED1;height:43px;line-height:43px;cursor:pointer;float:left;width:163px;position:relative;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased}
+.menu li a{display:block;padding-left:65px;position:relative;color:#FFF;width:98px;height:43px;*zoom:1}
+.menu li i{display:block;width:27px;height:27px;position:absolute;top:8px;left:22px;-webkit-backface-visibility:hidden;-webkit-animation-duration:1s;-moz-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s}
+.menu .t-1 i{background-position:5px 0}
+.menu .t-2 i{background-position:-21px 0}
+.menu .t-3 i{background-position:-48px 0;left:23px}
+.menu .t-4 i{background-position:-74px 0}
+.menu .t-5 i{background-position:-102px 0}
+.menu .t-6 i{background-position:-129px 0;left:23px}
+.menu .t-7 i{background-position:-155px 0}
+.menu .t-8 i{background-position:-184px 0;left:24px}
+.menu .t-9 i{background-position:-211px 0}
+.menu .t-10 i{background-position:-238px 0}
+.menu .t-11 i{background-position:-265px 0;left:23px}
+.menu .t-12 i{background-position:-293px 0;left:23px}
+.menu .t-13 i{background-position:-321px 0;left:21px}
+.menu .t-14 i{background-position:-352px 0;left:21px}
+.menu li a:hover i{left:24px;-webkit-transform-origin:top center;-moz-transform-origin:top center;-ms-transform-origin:top center;-o-transform-origin:top center;transform-origin:top center;-webkit-animation-name:swing;-moz-animation-name:swing;-ms-animation-name:swing;-o-animation-name:swing;animation-name:swing}
+.menu .t-1{border-top:0 none;z-index:17}
+.menu .t-2{z-index:15}
+.menu .t-3{z-index:12}
+.menu .t-4{z-index:11}
+.menu .t-5{z-index:9}
+.menu .t-6{z-index:7}
+.menu .t-7{z-index:6}
+.menu .t-8{z-index:10}
+.menu .t-9{z-index:1}
+.menu .t-10{z-index:3;border-bottom:0 none}
+.menu .t-11{z-index:2}
+.menu .t-12{z-index:5}
+.menu .t-13{z-index:9}
+.menu .t-13{z-index:16}
+.menu li a{outline:0;z-index:98}
+.menu li a:hover{z-index:99}
+.nav-mobile .t-1 a,.nav-game .t-2 a,.nav-qb .t-3 a,.nav-lottery .t-4 a,.nav-card .t-5 a,.nav-bank .t-6 a,.nav-life .t-7 a,.nav-insurance .t-8 a,.nav-post .t-9 a,.nav-movie .t-10 a,.nav-hotel .t-11 a,.nav-nice-num .t-12 a,.nav-fund .t-13 a,.nav-3g .t-14 a,.menu li a:hover{background-position:0 -53px;width:111px;height:48px;left:-3px;color:#0164a6;text-shadow:none;padding-left:67px;text-decoration:none;position:absolute;top:-2px}
+.menu .t-1 a:hover i,.nav-mobile .t-1 i{background-position:5px -26px}
+.menu .t-2 a:hover i,.nav-game .t-2 i{background-position:-21px -27px}
+.menu .t-3 a:hover i,.nav-qb .t-3 i{background-position:-48px -27px;left:25px}
+.menu .t-4 a:hover i,.nav-lottery .t-4 i{background-position:-74px -27px}
+.menu .t-5 a:hover i,.nav-card .t-5 i{background-position:-102px -27px}
+.menu .t-6 a:hover i,.nav-bank .t-6 i{background-position:-129px -27px;left:25px}
+.menu .t-7 a:hover i,.nav-life .t-7 i{background-position:-155px -27px}
+.menu .t-8 a:hover i,.nav-insurance .t-8 i{background-position:-184px -27px;left:25px}
+.menu .t-9 a:hover i,.nav-post .t-9 i{background-position:-211px -27px}
+.menu .t-10 a:hover i,.nav-movie .t-10 i{background-position:-238px -27px}
+.menu .t-11 a:hover i,.nav-hotel .t-11 i{background-position:-265px -27px;left:25px}
+.menu .t-12 a:hover i,.nav-nice-num .t-12 i{background-position:-293px -26px;left:25px}
+.menu .t-13 a:hover i,.nav-fund .t-13 i{background-position:-321px -25px;left:23px;top:9px}
+.menu .t-14 a:hover i,.nav-3g .t-14 i{background-position:-353px -27px;left:23px;top:9px}@-webkit-keyframes swing{20%,40%,60%,80%,100%{-webkit-transform-origin:top center}20%{-webkit-transform:rotate(15deg)}40%{-webkit-transform:rotate(-10deg)}60%{-webkit-transform:rotate(5deg)}80%{-webkit-transform:rotate(-5deg)}100%{-webkit-transform:rotate(0deg)}}@-moz-keyframes swing{20%{-moz-transform:rotate(15deg)}40%{-moz-transform:rotate(-10deg)}60%{-moz-transform:rotate(5deg)}80%{-moz-transform:rotate(-5deg)}100%{-moz-transform:rotate(0deg)}}@-ms-keyframes swing{20%{-ms-transform:rotate(15deg)}40%{-ms-transform:rotate(-10deg)}60%{-ms-transform:rotate(5deg)}80%{-ms-transform:rotate(-5deg)}100%{-ms-transform:rotate(0deg)}}@-o-keyframes swing{20%{-o-transform:rotate(15deg)}40%{-o-transform:rotate(-10deg)}60%{-o-transform:rotate(5deg)}80%{-o-transform:rotate(-5deg)}100%{-o-transform:rotate(0deg)}}@keyframes swing{20%{transform:rotate(15deg)}40%{transform:rotate(-10deg)}60%{transform:rotate(5deg)}80%{transform:rotate(-5deg)}100%{transform:rotate(0deg)}}/*  |xGv00|efe6dd6791bd98db7d9765733dcba59d */

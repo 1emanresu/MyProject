@@ -1,0 +1,29 @@
+﻿package com.apppay110.config;
+
+public class SAMConfig {
+	// 商户app_id
+	public static String APPID = "2017052107303265";
+	//应用公匙
+	//public static String PLATE_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0PDCxP3Pte/bUu1SAVnezioI1lJnEeXcefrW1jw3+1dirlWd7EYiiYN8ifnacliP8dcgJjAPJ95CiNXNkMaDjpcuG0FOCR7O2IhLWzutFMi5lRWnhIULwwQat54cRPNJ00MdtiYN7d9t7XGqq8h19/UZJep7qUGuR+zjxIoNu5LvTItqvmMp2SckK9h2LGepUTTvQAWU1CWzRg4NcoQ3ptj6unebYziRYfxBzXnMQNAdWj4BQhikuF0EyFGXno3HDUhkUuCWTW+Vdp8Gxf3k0L80eFGyaLv1rqRz9G0irMfwp3dq8SCUDXE/F/4buYC2X8hJidLekCbZdqBRfL/UsQIDAQAB";
+	//支付宝公匙
+	//public static String PLATE_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArp/SFQb3Z9BNkQz6Qxp57TuhRWSthlICjBx3UOtQz5Rtbku8mb/kp85bHjfKRa8olyOgCJOTedxb/d6rTEtDk81GwVaQRZhc4Tfsc9KydthgAzl8OBx31HkEUI245ogWUL9Df3Dg0MvkMqM1HF9yyy+hZaLXfhftkRwdzzMCTEmRZrBlqd9T5UkuZV5LIzBg8xdW90RM8xdSXsQLMZ7Lf6X38B4Bf/qo4dIAjrxljPygiRoMpxzOBQFFDWs9rSojCDH3EsNejQXUlFksC+bDlfqvUDkD303D1R2zu/YDs081eAqGFXmN1AmG81Yejq0f40mGj9V4nq3kJ0m2X3h0xwIDAQAB";
+	// 私钥 pkcs8格式的	
+	public static String RSA_PRIVATE_KEY = "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCvvq0Y6e2S80jlxcM9tthnll01dErznptuJXS7kce1xbKjPe78DJEGp5Qi5TKh6orVVo4jUGXoD7zTafYhqn5hUcMY2+jNl0m61WVYFS0oRCiDw4B03Zvt0Jg/0EVp1oYAtQQvY+3y20rm9RKVUEtPXH3ggH21r5x4roVvbZ2EtqgnuuuDvrBwHa4TyRrOrt9h/ebsUiYr9rJi0rywlt9WntAN4rtjPTfom7p+ppblA/8NYXCF3iENrs4tEOqSchGj+NAGImuBvso2jGc2G+8eyQoTIsutwYRChGgO2yKkZj+ypeKVwA+z4jyD1iuPpbM5TRAAkDFJp9g5U1DCUVDnAgMBAAECggEAbg+48fhWW4hW5+cxPa4L2tu1JevdoLJ83r9AWtOSQck89bSsvVbVYFiEklH9op9zMOYTABSyrWFlvPUIOs8+dI4y45edNVwAxaws2rvwWt5MjTBbe1Tp+UaAgr5ZKk45/6ldpJwtgcFKKFfkunPdpibjgjyV/bmsAXwyfrUkR97bbDfN7eEyIFmyLHVNuP4Kw+tf3wM4LPLwdJABRo1oxsOG9MRgs4H7n1d+DITvIE+b+vLwzck5Z5Zs8YPUUklwUM7tMLFi7n3Ulem7j3IpmaBnTfOrNfKolg+ct/8bGbcY0I3yyiUqyOeC1axkNns+mX7YlqzunrzAlFatFs96wQKBgQD4kp650ZjcMpIMCbsyGpVsFmrddiQ1sEyj9ZDsGFYve2O7hkWWsNR6QPfN/Ivi50G+iznpkHM77S2nATnAlbh4H41M82UxY8KTZ5LAhxC242cqDDFK+KtU3uCKsEgQbLPSwl9sqv2hKkRgYpwfNGRAKPhvrfUNYDKRBw+hiCc8YQKBgQC0/vtPUa+rIGY8maEQ4GLaZ79l+/bLMFdYr4hMSmTHzoeVSr9iL37CBnQn3OU7fxLLD8lhyrwxDJ7weE/bo5UGucXZA5D5rGkcmC8qKo0xiMtP15IeuiCUV7ghm80wtpBMMdGjkVQX40B8++N0qI1rhkHwSErbfFutkdAcGOjSRwKBgQCLqh4i/ABuYL+sod8bVNJ2C9Z5noLT4738NeL6tOXgAe1UlSoOdEa+djiF9YtHr3ZCMIoWkMIefrIy7r5bVgRzAg9rmCpYaNwP5JcRNBKRIA58EqOzoyrpId16L3geOmWDWxEwxpaBcnU+zsk3w0E8x4hnf497t3xR/myq7wxUoQKBgB+T5PCfxdBLZMrp2soA+/4y35fBb/tfQb39UgBNcmvRwqHvWpicxLbBPX6+8VeCAhtfc7kWD+NW2lwGAZjGX3e+7Z/BGYgV5njQrFnk9qFPxnj1mU63FnwLGdrzPcdj8qT4hCTPdCZ+xX+IytRNm+7Ii7SKSFUmyy/rIq3kQqp9AoGASVDv6wduezzW+iMiVcxtumcZqCgoSP2UA6EZs5ohqI2J7/2xnutJcC1IYJkUYzVOxt9YioOi9laSPn3fTpw0SoZ/wRyOjVHqM/3lV2ftlhdhC6bqYjtOwseT2RzDuBgWPg8kRtdQhlKYOurUBYtccKFN1xQhR3fsDGvu+5Tq4wc=";
+	// 服务器异步通知页面路径 需http://或者https://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
+	public static String notify_url = "http://api2.merutech.com.cn/pay/callback_sam";
+	// 页面跳转同步通知页面路径 需http://或者https://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问 商户可以自定义同步跳转地址
+	public static String return_url = "http://api2.merutech.com.cn/web/Result/";
+	// 请求网关地址
+	public static String URL = "https://openapi.alipay.com/gateway.do";
+	// 编码
+	public static String CHARSET = "UTF-8";
+	// 返回格式
+	public static String FORMAT = "json";
+	// 支付宝公钥
+	public static String ALIPAY_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiOJNTNbe0sTyIlCaRvkHQ9V4hHdplU2wrSFH2hRN4gNJFL9DfPuzilHZ5V7ibQVOANPtJpooqhGMkSJl3/LUbUVjx3U9TXmxMRKwKlZkTk/6mEUGe9CTWEcUWlysXZN2i9UHaVDoMY7Hq3MCp+BW29pQ1neHm9qz45ey6pDsXzN91YskQFMRhIt4B0Jv/ePQ3VOJx//VV6ppgbb7Zh2QH8ur0d6UwbVPP0XnND5xA/s5OIP/kqk8Uu8uEMRArH3jJOZd96ycob+q2fJntEogtUEOdEkBK8EjkQvWXS2jjphEhWN+sFGnD37SyCc37275PDmSpJ4Tg4bQ9FF7NDX2zQIDAQAB";
+	public static String log_path = "/log";
+	// RSA2
+	public static String SIGNTYPE = "RSA2";
+	//支付宝用户号
+	public static String seller_id="2088621962765051";
+}
