@@ -76,13 +76,13 @@ MyProject主要的开发理念就是简单快速，所以框架里还包含一�
 
 provider实现类生成配置文件示例：
 #---------------------------------------------------------------------------------#
-# Generator Config
-# jboot.admin.serviceimpl.ge.entity.package: the entity package;
-# jboot.admin.serviceimpl.ge.servicepackage：service 接口 package
-# jboot.admin.serviceimpl.ge.serviceimplpackage：service 实现类 package
-# jboot.admin.serviceimpl.ge.localdev.removedtablenameprefixes: 需要移除表名前缀只留下后部分，多个逗号隔开
-# jboot.admin.serviceimpl.ge.localdev.excludedtable: 生成时不包含表名列表，多个逗号隔开
-# jboot.admin.serviceimpl.ge.excludedtableprefixes: 生成时不包含表前缀，多个逗号隔开
+ Generator Config
+ jboot.admin.serviceimpl.ge.entity.package: the entity package;
+ jboot.admin.serviceimpl.ge.servicepackage：service 接口 package
+ jboot.admin.serviceimpl.ge.serviceimplpackage：service 实现类 package
+ jboot.admin.serviceimpl.ge.localdev.removedtablenameprefixes: 需要移除表名前缀只留下后部分，多个逗号隔开
+ jboot.admin.serviceimpl.ge.localdev.excludedtable: 生成时不包含表名列表，多个逗号隔开
+ jboot.admin.serviceimpl.ge.excludedtableprefixes: 生成时不包含表前缀，多个逗号隔开
 #---------------------------------------------------------------------------------#
 jboot.admin.serviceimpl.ge.modelpackage=io.jboot.admin.service.entity.model
 jboot.admin.serviceimpl.ge.servicepackage=io.jboot.admin.service.api
